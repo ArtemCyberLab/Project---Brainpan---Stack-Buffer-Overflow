@@ -23,3 +23,13 @@ crafting a malicious payload;
 launching the final exploit from a Linux machine (Kali / AttackBox) to obtain remote code execution on the target system.
 
 This approach follows the intended design of the Brainpan room, where Windows is used for binary analysis and Linux is used for exploitation.
+
+
+📝 Project Note
+
+During the execution of the Brainpan 1 room, the reconnaissance and service analysis phases were successfully completed, including the discovery and extraction of the vulnerable binary brainpan.exe.
+
+However, further buffer overflow debugging requires a Windows-based environment with Immunity Debugger and proper network connectivity between the local Windows system and the TryHackMe virtual machine. At the time of execution, technical limitations related to networking and environment isolation prevented reliable interaction between the Windows debugging setup and the target machine.
+
+As a result, the practical exploitation phase was paused at the environment preparation stage. Nevertheless, the exploitation workflow, required tools, and attack architecture were fully analyzed and documented.
+
